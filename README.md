@@ -9,6 +9,7 @@ FitAgent is an AI-powered Fitness Coach Agent built using **SmolAgents** and **H
 *  Personalized Workout Plans
 *  Diet Recommendations
 *  Natural Language Interaction using AI Agents
+*  Web Search for Nutrition & Fitness Information
 
 ## Tech Stack
 
@@ -16,6 +17,7 @@ FitAgent is an AI-powered Fitness Coach Agent built using **SmolAgents** and **H
 * SmolAgents
 * Hugging Face Hub
 * Hugging Face Inference API
+* DuckDuckGo Search
 * Google Colab
 
 ## Tools Implemented
@@ -48,6 +50,9 @@ Generates diet plans based on:
 * Vegetarian Preference
 * Non-Vegetarian Preference
 
+### Web Search Tool
+Finds fitness and nutrition information using DuckDuckGo Search.
+
 ## Example Query
 
 ```text
@@ -63,6 +68,7 @@ Give me:
 2. Daily calorie requirement
 3. Workout plan
 4. Diet recommendation
+5. High-protein foods
 ```
 
 ## Sample Output
@@ -112,7 +118,6 @@ login()
 * Water Intake Calculator
 * Progress Tracking
 * Fitness Goal Monitoring
-* Web Search Integration
 * Streamlit Web Application
 * Memory-Based Personal Fitness Assistant
 
