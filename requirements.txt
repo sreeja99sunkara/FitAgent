@@ -1,0 +1,5 @@
+smolagents
+huggingface_hub
+python-dotenv
+ddgs
+groq
